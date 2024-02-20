@@ -259,7 +259,7 @@ body{
     border-right:10px;
     border-radius: 20px;
     transition:background 0.5, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,1px 1px 40px #012290f7
+    box-shadow: 1px 1px 20px #012290f7,1px 1px 40px #0053b8f7
 
 }
 
@@ -270,14 +270,14 @@ margin-bottom: 30px ;
 }
 
 .services-list div h2{
-    font-size: 30%;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
 .services-list div a{
     text-decoration: none;
-    color:#0000 ;
+    color:#081b29 ;
     font-size:12px ;
     margin-top:20px ;
     display: inline-block;
@@ -286,16 +286,17 @@ margin-bottom: 30px ;
 
 
 .read{
-    display: inline-block ;
+    
+    display: inline-block;
     padding: 12px 28px ;
     background: #0ef;
     border-radius:40px ;
-    font-size:16px ;
-    color:#081b29 ;
-    letter-spacing: 1px;
+    font-size: 16px ;
+    color: black ;
+    letter-spacing:1px ;
     text-decoration: none;
     font-weight: 600;
-    opacity: 0;
+    opacity:0 ;
     animation: slideTop 1s ease forwards ;
     animation-delay: 2s;
     box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
